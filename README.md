@@ -15,4 +15,4 @@
 
  Baixa os programas que vou deixar em forma de link logo abaixo:
 
-![Node.js](https://nodejs.org/en/download/)
+[Node.js](https://nodejs.org/en/download/)
