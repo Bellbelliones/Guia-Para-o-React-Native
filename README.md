@@ -17,7 +17,7 @@
 
  ## Node.js
 
- ![Site da Página de Download](https://drive.google.com/file/d/1ao8diCTeEF-R-1QLg3MSlg-AMQfb-3yH/view?usp=drive_link)
+ ![Site da Página de Download](./assets/imagens/Captura%20do%20nodejs.png)
 
 **Clica ->>**: [Node.js](https://nodejs.org/en/download/)
 
