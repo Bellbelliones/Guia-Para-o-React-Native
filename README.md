@@ -13,7 +13,7 @@
 
  Para pode programar em React Native, aqui o seu amigo Rodolfo vai te dizer o que precisas instalar, sendo que é preciso ter eles na sua máquina para poder criar ou fazer outra qualquer coisa na sua aplicação, seja web ou mobile... Ok? estamos juntos?
 
- Baixa os programas que vou deixar em forma de link logo abaixo:
+ Baixa o programas que vou deixar em forma de link logo abaixo:
 
  ## Node.js
 
