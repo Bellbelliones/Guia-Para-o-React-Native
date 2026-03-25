@@ -52,7 +52,7 @@ Só pesquisar na **PlayStore** por **ExpoGo** e baixar;
 
 --------------------------------------
 
-## Node.js Pacage Manager Extra
+## Node.js Package Manager Extra
 
 Bem... é só um extra para ficar bonito no pc ksksks...
 
