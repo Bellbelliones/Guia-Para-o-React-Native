@@ -72,7 +72,7 @@ Baixa ele aí para o seu pc e instala.
 Quando falo de configuração do ambiente, eu me refiro a questão de:
 
 1. Instalação de extensões no VSCode(claro isto deveria estar na área de instalação, mas na verdade ele deve estar aqui mesmo);
-    a. ES7+ React/Redux Snippets
+    1.1. ES7+ React/Redux Snippets
     b. Prettier
     C. ESLint
 2. Checagem do ExpoGo no telemóvel(Ele deve estar a funcionar corretamente, ou seja, basta ele abrir);
