@@ -75,6 +75,14 @@ Quando falo de configuração do ambiente, eu me refiro a questão de:
     1.  ES7+ React/Redux Snippets
     2. Prettier
     3. ESLint
+    4. Auto Rename Tag
+    5. Path Intellisense
+    6. Tailwind CSS IntelliSense
+    7. Expo Tools
+    8. React Native Tools
+    9. GitLens
+    10. Thunder Client
+    11. NativeWind
 2. Checagem do ExpoGo no telemóvel(Ele deve estar a funcionar corretamente, ou seja, basta ele abrir);
 3. Checar se seu telemóvel consigue tirar foto um pouquinho com qualidade;
 
