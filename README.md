@@ -84,7 +84,9 @@ Quando falo de configuração do ambiente, eu me refiro a questão de:
     10. Thunder Client
     11. NativeWind
 2. Checagem do ExpoGo no telemóvel(Ele deve estar a funcionar corretamente, ou seja, basta ele abrir);
-3. Checar se seu telemóvel consigue tirar foto um pouquinho com qualidade;
+ ![Site da Página de Download](./assets/imagens/Captura%20do%20nodejs.png)
+
+4. Checar se seu telemóvel consigue tirar foto um pouquinho com qualidade;
 
 ## 3. Criação do seu primeiro projecto;
 
