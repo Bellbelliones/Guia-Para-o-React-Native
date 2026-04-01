@@ -110,14 +110,21 @@ Agora que concluiu esta parte, tu rodas isso no terminal
 ```
 1. Vai perguntar sobre o **create-vite@(versão atual, vai aparecer em número aqui)**, é só digitar **y**;
 2. Após isso vai perguntar **project-name:** aqui tu colocas o nome do teu projecto ok? e depois dê enter;
-3. Logo em seguida vai perguntar o framework, que no nosso caso é **Reat**;
-4. Vai perguntar **Select a Variant** e tu escolhes **TypeScript** mais usado no mercado atual nas empresas que citei acima;
+3. Logo em seguida vai perguntar o framework, que no nosso caso é **React**;
+4. Vai perguntar **Select a Variant** e tu escolhes **TypeScript** mais usado no mercado atual em empresas como as que citei acima;
 5. E por ultimo vai perguntar sobre **Install with npm start now?**, tu digitas **yes** ou **y** e da enter também;
 
-Apartir desse momento a pasta do teu projecto virá com pastas e ficheiros iniciais que chamo de **dependências**, aquilo que o projecto necessita para ser execitado. E quando tudo terminar de ser baixado, veras algo como isso no terminal do **VSCode**:
+Apartir desse momento a pasta do teu projecto virá com pastas e ficheiros iniciais que chamo de **dependências**, aquilo que o projecto necessita para ser executado. E quando tudo terminar de ser baixado, veras algo como isso na pasta raiz do projecto dentro do **VSCode**:
 
- ![Server local](./assets/imagens/expogo.png)
+ ![Dependências](./assets/imagens/dependencias.png)
 
-E ao clicar no botão **CTRL + clicando com o cursor** no localhost ok? ele vai abrir o projecto no teu navegador deste jeito:
+E ao clicar no botão **CTRL + clicando com o cursor** no localhost:
 
- ![Um hello world moderno](./assets/imagens/expogo.png)
+ ![Server local](./assets/imagens/serverlocal.png)
+
+Ele vai abrir o projecto no teu navegador deste jeito:
+
+ ![Um hello world moderno](./assets/imagens/helloworldmoderno.png)
+
+
+### E prontos, tens o teu projecto criado!!! Agora é só fazer a modificações certas kkk, e acrescentar o que for necessário!
