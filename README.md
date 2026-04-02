@@ -127,7 +127,7 @@ Ele vai abrir o projecto no teu navegador deste jeito:
  ![Um hello world moderno](./assets/imagens/helloworldmoderno.png)
 
 
-### E prontos, tens o teu projecto criado!!! Agora é só fazer a modificações certas kkk, e acrescentar o que for necessário!
+### E prontos, tens o teu projecto criado!!! Agora é só fazer as modificações certas kkk, e acrescentar o que for necessário!
 
 
 --------------------------------------
@@ -136,7 +136,7 @@ Ele vai abrir o projecto no teu navegador deste jeito:
 
 ### Parte introdutoria(Se quiser pular, pula)
 
-Já criamos o nosso projecto, mas e aí? é tudo? claro que não, aqui vou ensinar também a usar o **Tailwind** ou em outros termos(mas não verdadeiros) **Bootstrap**! sim, atualmente precisamos ser rápidos e dinâmicos ao criar sistemas e um sistemas não pode nos fazer uma semana ou um mês, ser produtivo em menor tempo possivel, então é necessário ter esse tipo de ajuda em nossos projectos.
+Já criamos o nosso projecto, mas e aí? é tudo? claro que não, aqui vou ensinar também a usar o **Tailwind** ou em outros termos(mas não verdadeiros)  **Bootstrap** ! sim, atualmente precisamos ser rápidos e dinâmicos ao criar sistemas e um sistemas não pode nos fazer uma semana ou um mês, ser produtivo em menor tempo possivel, então é necessário ter esse tipo de ajuda em nossos projectos.
 
 Você já criou classes eno **CSS** e usou no **HTML** certo? tu criavas nomes como se fossem variaveis e depois alteravas no css... o React ainda vais usar o **HTML** e também o **CSS**, caso vocÊ já tenha interagido com essas linguagens( não de programação, elas não são linguagens de programação...), Será fácil se adaptar aqui.
 
@@ -153,3 +153,22 @@ Tu precisas rodar no terminal ou no cmd neste caso(Atenção! no cmd ele deve es
 ``` md Intalando as dependencias do npm no projecto
   npm install
 ```
+ Isso vai garantir que o teu projecto tenha o que precisamos para o decorrer do desenvolvimento.
+
+### NOTA!!!
+Quando você cria o teu projecto, ele por padrão cria o server para ti e mostra o projecto, mas quando precisas ver de novo o teu projecto, tu precisas criar este mesmo server de novo, e para tal, tu rodas;
+
+``` md
+npm run dev
+```
+###Fim
+
+Agora chegour a hora de nós colcocarmos o **Tailwind** no teu projecto, dentro da pasta do projecto no **CMD** rodas:
+
+
+``` md
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+```
+
+Podes colcoar de uma vez ou em separado, mais se for de uma vez, clica no botão de copiar desse bash aí
