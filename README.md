@@ -4,8 +4,8 @@
 
 1. Instalação dos programas;
 2. Configuração do Ambiente;
-3. Criação do seu primeiro projecto;
-4. Conceitos básicos da linguagem;
+3. Criação do seu primeiro projecto
+4. Organização e ajustes do projecto;
 --------------------------------------
 
 
@@ -128,3 +128,28 @@ Ele vai abrir o projecto no teu navegador deste jeito:
 
 
 ### E prontos, tens o teu projecto criado!!! Agora é só fazer a modificações certas kkk, e acrescentar o que for necessário!
+
+
+--------------------------------------
+
+## 4. Organização e ajustes do projecto;
+
+### Parte introdutoria(Se quiser pular, pula)
+
+Já criamos o nosso projecto, mas e aí? é tudo? claro que não, aqui vou ensinar também a usar o **Tailwind** ou em outros termos(mas não verdadeiros) **Bootstrap**! sim, atualmente precisamos ser rápidos e dinâmicos ao criar sistemas e um sistemas não pode nos fazer uma semana ou um mês, ser produtivo em menor tempo possivel, então é necessário ter esse tipo de ajuda em nossos projectos.
+
+Você já criou classes eno **CSS** e usou no **HTML** certo? tu criavas nomes como se fossem variaveis e depois alteravas no css... o React ainda vais usar o **HTML** e também o **CSS**, caso vocÊ já tenha interagido com essas linguagens( não de programação, elas não são linguagens de programação...), Será fácil se adaptar aqui.
+
+
+### Fim de introdução...
+
+
+### Implementação!
+
+Após ter terminado de criar o teu projecto em **REACT**
+
+Tu precisas rodar no terminal ou no cmd neste caso(Atenção! no cmd ele deve estar dentro da pasta raiz do projecto), o seguint código:
+
+``` md Intalando as dependencias do npm no projecto
+  npm install
+```
