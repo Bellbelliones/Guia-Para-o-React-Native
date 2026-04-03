@@ -245,5 +245,5 @@ npm rund dev
 
 clica no localhost com a tecla **CTRL + click do mouse** e vai te redirecionar para o navegador para ver o que foi alterado, ele ficará assim:
 
-![Olá mundo](./assets/helloworld.png)
+![Olá mundo](./assets/imagens/helloworld.png)
 
