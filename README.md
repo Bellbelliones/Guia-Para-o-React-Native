@@ -84,7 +84,9 @@ Quando falo de configuração do ambiente, eu me refiro a questão de:
     10. Thunder Client
     11. NativeWind
 2. Checagem do ExpoGo no telemóvel(Ele deve estar a funcionar corretamente, ou seja, basta ele abrir);
- ![Site da Página de Download](./assets/imagens/expogo.png)
+
+   
+ ### ![Site da Página de Download](./assets/imagens/expogo.png)
 
 4. Checar se seu telemóvel consigue tirar foto um pouquinho com qualidade;
 
@@ -148,7 +150,7 @@ vá até a past src ou clica nele, tu precisas criar essas novas pastas e deixar
 
 ![imagem das pastas](./assets/imagens/src.png)
 
-vá até ao arquivo **main.tsx** e elimina o import o nome App.css ok? e deixa assim:
+vá até ao arquivo **main.tsx** e elimina o import com nome App.css ok? e deixa assim:
 
 ```md
 import { StrictMode } from 'react'
@@ -163,6 +165,8 @@ createRoot(document.getElementById('root')!).render(
 
 ```
 Não vamos usar aquele import...
+
+Na pasta raiz do teu projecto verás um arquivo com o nome **eslint** qualquer coisa, elimina ela... 
 
 Vá para o **package.json** e deixa assim:
 
@@ -200,7 +204,7 @@ Vá para o **package.json** e deixa assim:
 ```
 
 O que aconteceu? só eliminaste tudo que tem haver com o arquivo **eslint** que você apagou para não der erro depois...
-### Verás que está a faltar aquivos na minha pasta src, mas na verdade é para eliminar mesmo, o que você ver que não tenho é para eliminar na tua pasta src, atenção, isso que estás a ver é a pasta src ok? a estrutura da pasta src.
+### Verás que está a faltar aquivos na minha pasta src, mas na verdade é para eliminar mesmo, o que você ver que não tenho é para eliminar na tua pasta src, atenção! isso que estás a ver é a pasta src ok? a estrutura da pasta src.
 
 Entra no **App.tsx** e deixa assim:
 
@@ -219,7 +223,7 @@ export default function App ()
 }
 ```
 
-Tu precisas rodar no terminal ou no cmd neste caso(Atenção! no cmd ele deve estar dentro da pasta raiz do projecto), o seguinte código:
+Agora tu precisas rodar no terminal ou no cmd neste caso(Atenção! no cmd ele deve estar dentro da pasta raiz do projecto), o seguinte código:
 
 Intalando as dependencias do npm no projecto
 ``` md 
