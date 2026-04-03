@@ -163,12 +163,87 @@ npm run dev
 ```
 ###Fim
 
+### INSERINDO E CONFIGURANDO O TAILWIND CSS
+
 Agora chegour a hora de nós colcocarmos o **Tailwind** no teu projecto, dentro da pasta do projecto no **CMD** rodas:
 
-
+**Instalando na pasta do projecto
 ``` md
-npm install -D tailwindcss postcss autoprefixer
-npx tailwindcss init -p
+npm install tailwindcss @tailwindcss/vite
 ```
 
-Podes colcoar de uma vez ou em separado, mais se for de uma vez, clica no botão de copiar desse bash aí
+Podes colcoar de uma vez ou em separado, mais se for de uma vez, clica no botão de copiar desse bash aí.
+
+**Configurando o Arquivo "vite.config.ts"
+
+Após instalar clica no arquivo dentro projecto com o nome **vite.config.ts** e adiciona essas duas linhas de codigo...
+
+Por baixo dos outros import coloca isso:
+``` md
+import tailwindcss from '@tailwindcss/vite'
+```
+e dentro disso
+
+```md
+// https://vite.dev/config/
+export default defineConfig({
+  plugins: [react()],
+})
+```
+deixa assim:
+
+```md
+// https://vite.dev/config/
+export default defineConfig({
+  plugins: [
+    react(),
+    tailwindcss(),
+  
+  ],
+})
+```
+
+Crie uma pasta dentro da pasta src com o nome **styles** ele vai guardar o nosso css global com o nome:
+```md
+global.css
+```
+Dentro desse arquivo global tu importas o tailwindcss:
+
+``` md
+@import "tailwindcss";
+```
+### NOTA: Não esqueça de salvar tudo que estamos a fazer!
+
+Agora só precisas importar esse arquivo global css com o tailwind css para as páginas do teu sistema, como o **App.tsx** dentro do **src**, coloca:
+
+```md
+import "./styles/global.css";
+```
+
+e vai ficar assim o arquivo:
+
+```md
+import "./styles/global.css";
+function App() {
+  return (
+    <>
+      <div className="h-screen flex justify-center items-center">
+        <div className="">OLÁ mundo!!!</div>
+      </div>
+    </>
+  )
+}
+
+export default App
+```
+
+roda de novo no terminal dentro do teu projecto(caso ainda não tenhas iniciado o servidor):
+
+```md
+npm rund dev
+```
+
+clica no localhost com a tecla **CTRL + click do mouse** e vai te redirecionar para o navegador para ver o que foi alterado, ele ficará assim:
+
+![Olá mundo](./assets/helloworld.png)
+
