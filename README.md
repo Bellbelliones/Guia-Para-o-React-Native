@@ -140,17 +140,89 @@ Já criamos o nosso projecto, mas e aí? é tudo? claro que não, aqui vou ensin
 
 Você já criou classes eno **CSS** e usou no **HTML** certo? tu criavas nomes como se fossem variaveis e depois alteravas no css... o React ainda vais usar o **HTML** e também o **CSS**, caso vocÊ já tenha interagido com essas linguagens( não de programação, elas não são linguagens de programação...), Será fácil se adaptar aqui.
 
-
-### Fim de introdução...
-
-
 ### Implementação!
 
 Após ter terminado de criar o teu projecto em **REACT**
 
-Tu precisas rodar no terminal ou no cmd neste caso(Atenção! no cmd ele deve estar dentro da pasta raiz do projecto), o seguint código:
+vá até a past src ou clica nele, tu precisas criar essas novas pastas e deixar apenas os arquivos que deixei do jeito que está aqui:
 
-``` md Intalando as dependencias do npm no projecto
+![imagem das pastas](./assets/imagens/src.png)
+
+vá até ao arquivo **main.tsx** e elimina o import o nome App.css ok? e deixa assim:
+
+```md
+import { StrictMode } from 'react'
+import { createRoot } from 'react-dom/client'
+import App from './App.tsx'
+
+createRoot(document.getElementById('root')!).render(
+  <StrictMode>
+    <App />
+  </StrictMode>,
+)
+
+```
+Não vamos usar aquele import...
+
+Vá para o **package.json** e deixa assim:
+
+```md
+{
+  "name": "soulofafrica",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.2.2",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  },
+  "devDependencies": {
+    "@types/node": "^24.12.0",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.1",
+    "autoprefixer": "^10.4.27",
+    "globals": "^17.4.0",
+    "postcss": "^8.5.8",
+    "tailwindcss": "^4.2.2",
+    "typescript": "~5.9.3",
+    "typescript-eslint": "^8.57.0",
+    "vite": "^8.0.1"
+  }
+}
+
+```
+
+O que aconteceu? só eliminaste tudo que tem haver com o arquivo **eslint** que você apagou para não der erro depois...
+### Verás que está a faltar aquivos na minha pasta src, mas na verdade é para eliminar mesmo, o que você ver que não tenho é para eliminar na tua pasta src, atenção, isso que estás a ver é a pasta src ok? a estrutura da pasta src.
+
+Entra no **App.tsx** e deixa assim:
+
+``` md
+export default function App ()
+{
+ return(
+  <>
+    <div classname="">
+       <div>
+          Olá mundo!!!
+       </div>
+    </div>
+ </>
+)
+}
+```
+
+Tu precisas rodar no terminal ou no cmd neste caso(Atenção! no cmd ele deve estar dentro da pasta raiz do projecto), o seguinte código:
+
+Intalando as dependencias do npm no projecto
+``` md 
   npm install
 ```
  Isso vai garantir que o teu projecto tenha o que precisamos para o decorrer do desenvolvimento.
@@ -161,22 +233,22 @@ Quando você cria o teu projecto, ele por padrão cria o server para ti e mostra
 ``` md
 npm run dev
 ```
-###Fim
+### Fim Nota
 
 ### INSERINDO E CONFIGURANDO O TAILWIND CSS
 
-Agora chegour a hora de nós colcocarmos o **Tailwind** no teu projecto, dentro da pasta do projecto no **CMD** rodas:
+Agora chegou a hora de nós coloocarmos o **Tailwind** no teu projecto... Vai dentro da pasta do seu projecto no **CMD**.
 
-**Instalando na pasta do projecto
+**Instalando TailwindCss no seu projecto**
 ``` md
 npm install tailwindcss @tailwindcss/vite
 ```
 
 Podes colcoar de uma vez ou em separado, mais se for de uma vez, clica no botão de copiar desse bash aí.
 
-**Configurando o Arquivo "vite.config.ts"
+**Configurando o Arquivo "vite.config.ts"**
 
-Após instalar clica no arquivo dentro projecto com o nome **vite.config.ts** e adiciona essas duas linhas de codigo...
+Após instalar, clica no arquivo dentro projecto com o nome **vite.config.ts** e adiciona essas duas linhas de codigo...
 
 Por baixo dos outros import coloca isso:
 ``` md
@@ -203,7 +275,7 @@ export default defineConfig({
 })
 ```
 
-Crie uma pasta dentro da pasta src com o nome **styles** ele vai guardar o nosso css global com o nome:
+Vá até a pasta src, e cria uma pasta com o nome **styles** ele vai guardar o nosso css global com o nome:
 ```md
 global.css
 ```
@@ -247,3 +319,12 @@ clica no localhost com a tecla **CTRL + click do mouse** e vai te redirecionar p
 
 ![Olá mundo](./assets/imagens/helloworld.png)
 
+
+No fim a pasta completa fica:
+
+![Pasta completa](./assets/imagens/pastacompleta.png)
+
+### Prontoooo, agora tu podes usar o teu TailwindCss em todo o seu projecto!
+------------------------------
+
+#Ainda escrevendo o resto do guia...
