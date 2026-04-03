@@ -20,7 +20,8 @@ Isso e mais algumas pequenas coisinhas...
 Qualquer erro notado, gostaria que reporta-se apartir dos meus contactos:
 
 
-Instragram: @[bellbelliones][AQUI](https://www.instagram.com/belliones_official/)
+Instragram: @[bellbelliones](https://www.instagram.com/belliones_official/)
+
 E-mail: **rodolfoguzman0326@gmail.com**
 
 
