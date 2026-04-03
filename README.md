@@ -7,7 +7,28 @@
 3. Criação do seu primeiro projecto
 4. Organização e ajustes do projecto;
 --------------------------------------
+## NOTA!!!
 
+**O seguinte documento pode conter:**
+
+1. Erros ortográficos não analisados ou corrigidos;
+2. Falhas ao fechar ou ao colocar o fim das markdown (linguagem do readme.md);
+3. Possivel troca de sentido ou coesão;
+
+Isso e mais algumas pequenas coisinhas...
+
+Qualquer erro notado, gostaria que reporta-se apartir dos meus contactos:
+
+______________________________________
+
+Instragram: **(@bellbelliones)[https://www.instagram.com/belliones_official/]**
+E-mail: **rodolfoguzman0326@gmail.com**
+
+______________________________________
+
+Desde já agradeço por usar este guia como base para o **React**, agora! Boraaaa para o códigoooo!
+
+-----------------------------------------
 
 ## **1. Instalação dos programas**
 
@@ -43,15 +64,6 @@ Como programador/a, tu deves saber da existência desta magnífica ferramenta de
 
 --------------------------------------
 
-### Expo Go
-
-Olha... Se o seu seu computador é uma batata que nem a minha, recomendo imenso tu baixar isso viu? Esse é um aplicativo para telemóvel, com ele tu poderás ver a tua aplicação rodando no seu telemóvel sem precisar ter que criar o apk e  depois instalar no teu telemóvel, mesmo quem tem bom pc pode usar ele...
-
-Só pesquisar na **PlayStore** por **ExpoGo** e baixar;
-
-
---------------------------------------
-
 ### Node.js Package Manager Extra
 
 Bem... é só um extra para ficar bonito no pc ksksks...
@@ -83,12 +95,7 @@ Quando falo de configuração do ambiente, eu me refiro a questão de:
     9. GitLens
     10. Thunder Client
     11. NativeWind
-2. Checagem do ExpoGo no telemóvel(Ele deve estar a funcionar corretamente, ou seja, basta ele abrir);
 
-   
-  ![Site da Página de Download](./assets/imagens/expogo.png) 
-
-4. Checar se seu telemóvel consigue tirar foto um pouquinho com qualidade;
 
 ## 3. Criação do seu primeiro projecto;
 
