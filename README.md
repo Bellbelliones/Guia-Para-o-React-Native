@@ -19,12 +19,10 @@ Isso e mais algumas pequenas coisinhas...
 
 Qualquer erro notado, gostaria que reporta-se apartir dos meus contactos:
 
-______________________________________
 
-Instragram: **(@bellbelliones)[https://www.instagram.com/belliones_official/]**
+Instragram: (@bellbelliones)[https://www.instagram.com/belliones_official/]
 E-mail: **rodolfoguzman0326@gmail.com**
 
-______________________________________
 
 Desde já agradeço por usar este guia como base para o **React**, agora! Boraaaa para o códigoooo!
 
