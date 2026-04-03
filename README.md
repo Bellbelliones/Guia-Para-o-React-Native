@@ -24,6 +24,7 @@ Instragram: @[bellbelliones](https://www.instagram.com/belliones_official/)
 
 E-mail: **rodolfoguzman0326@gmail.com**
 
+Todos os direitos reservados ao **Rodolfo Guzman**!
 
 Desde já agradeço por usar este guia como base para o **React**, agora! Boraaaa para o códigoooo!
 
