@@ -86,7 +86,7 @@ Quando falo de configuração do ambiente, eu me refiro a questão de:
 2. Checagem do ExpoGo no telemóvel(Ele deve estar a funcionar corretamente, ou seja, basta ele abrir);
 
    
- *** ![Site da Página de Download](./assets/imagens/expogo.png) ***
+  ![Site da Página de Download](./assets/imagens/expogo.png) 
 
 4. Checar se seu telemóvel consigue tirar foto um pouquinho com qualidade;
 
