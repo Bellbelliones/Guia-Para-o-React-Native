@@ -32,15 +32,15 @@ Desde já agradeço por usar este guia como base para o **React**, agora! Boraaa
 
 ## **1. Instalação dos programas**
 
- Para pode programar em React Native, aqui o seu amigo Rodolfo vai te dizer o que precisas instalar, sendo que é preciso ter eles na sua máquina para poder criar ou fazer outra qualquer coisa na sua aplicação, seja web ou mobile... Ok? estamos juntos?
+ Para poder programar em React, aqui o seu amigo Rodolfo vai te dizer o que precisas instalar, sendo que é preciso ter eles na sua máquina para poder criar ou fazer outra qualquer coisa na sua aplicação, seja web ou mobile... Ok? estamos juntos?
 
- Baixa o programas que vou deixar em forma de link logo abaixo:
+ Baixa oz programas que vou deixar em forma de link logo abaixo:
 
  ### Node.js
 
-Ao entrar no site, por baixo do titulo dowload deves deixar exatamente deste jeito as caixas de informações e ao deixar do jeito que está a imagem clica no botão verde no fim para iniciar a transferência
+Ao entrar no site, por baixo do titulo **DOWNLOAD** deves deixar exatamente deste jeito as caixas de informações e ao deixar do jeito que está a imagem clica no botão verde no fim para iniciar a transferência
 
-Para que serve? para poderes rodar o teu projecto e ver como ele está a funcionar, precisas dele...
+Para que serve? para poderes rodar o teu projecto e ver como ele está a funcionar, ou seja,precisas dele...
 
  ![Site da Página de Download](./assets/imagens/Captura%20do%20nodejs.png)
 
@@ -51,7 +51,7 @@ Para que serve? para poderes rodar o teu projecto e ver como ele está a funcion
 
 ### GitHub
 
-Sempre que tu estiveres a trabalhar em desenvolvimento de algum projecto, não importa qual seja, tens que usar o git, por ele ajuda com versionamento, ou seja, com as versões do seu sistema, sempre que atualizares(adicionares alguma alteração no teu sistema) tu criar meio que um historico de versões, para quando o programa estiver em uma parte que só está a dar erros, possas voltar na versão anterior...  "você está me entendendo"(By Professor Aires)
+Sempre que tu estiveres a trabalhar em desenvolvimento de algum projecto, não importa qual seja, tens que usar o git, por que ele ajuda com versionamento, ou seja, com as versões do seu sistema, sempre que atualizares(adicionares alguma alteração no teu sistema) tu estás a criar meio que um historico de versões, para quando o programa estiver em uma parte que só está a dar erros, possas voltar na versão anterior...  "você está me entendendo"(By Professor Aires)
 
 **Para baixar clica ->>** [AQUI](https://git-scm.com/install/windows)
 
@@ -74,36 +74,31 @@ Baixa ele aí para o seu pc e instala.
 
 --------------------------------------
 
-### Bem para instação é apenas isso... Agora vamos entrar para a parte de criação do seu primeiro projecto...
-
-
---------------------------------------
-
 ## 2. Configuração do Ambiente;
 
 Quando falo de configuração do ambiente, eu me refiro a questão de:
 
 1. Instalação de extensões no VSCode(claro isto deveria estar na área de instalação, mas na verdade ele deve estar aqui mesmo);
-    1.  ES7+ React/Redux Snippets
-    2. Prettier
-    3. ESLint
-    4. Auto Rename Tag
-    5. Path Intellisense
-    6. Tailwind CSS IntelliSense
-    7. Expo Tools
-    8. React Native Tools
-    9. GitLens
-    10. Thunder Client
-    11. NativeWind
-
+    1.  ES7+ React/Redux Snippets;
+    2. Prettier;
+    3. ESLint;
+    4. Auto Rename Tag;
+    5. Path Intellisense;
+    6. Tailwind CSS IntelliSense;
+    7. Expo Tools;
+    8. React Native Tools;
+    9. GitLens;
+    10. Thunder Client;
+    11. NativeWind;
+    12. Dracula theme;
 
 ## 3. Criação do seu primeiro projecto;
 
 Há sempre aqueles que quando tentam fazer os dois primeiros passos, encontram um monte de erros...
 E mesmo pesquisando no youtube ou no chatgpt não encontram respostas... 
-É normal sim que ao criar o teu projecto venham informações em "Warning", por quê? eu também não sei, kkk estou a mentir! os "warnings" são chamadas de atenção para as versões de algum programa ou pacote dentro do seu pc que a sua versão está desatualizada... É só tu depois atualizares eles... para quem usa linux é só botar um bash(comando no terminal ou em palavras mais miúdas, no cmd...); que ele completa a atualização de tudo no pc... Mas não precisam se preocupar no início...
+É normal sim que ao criar o teu projecto venham informações em "Warning", por quê? eu também não sei, kkk estou a mentir! os "warnings" são chamadas de atenção para as versões de algum programa ou pacote dentro do seu pc que a sua versão está desatualizada... É só tu depois atualizares eles... para quem usa linux é só botar um bash(comando no terminal ou em palavras mais miúdas, no cmd...), que ele completa a atualização de tudo no pc... Mas não precisam se preocupar no início...
 
-Para criar um novo projecto em **REACT NATIVE** tu só precisas de fazer antes uma coisa, que no caso é **Abrir a pasta raiz do projecto no VSCodeP**, por quê? por que vocês vão precisar do terminal ligado a pasta do projecto... por que no terminal já vira com o caminho do projecto e quando falo de caminho, é a localização exata do teu projecto, tipo tá aguardada dentro de uma pasta que tem pasta dele, onde essa pasta também tem pasta dele e fica assim:
+Para criar um novo projecto em **REACT** tu só precisas de fazer antes uma coisa, que no caso é **Abrir a pasta raiz do projecto no VSCode**, por quê? por que vocês vão precisar do terminal ligado a pasta do projecto... por que no terminal já vira com o caminho do projecto e quando falo de caminho, é a localização exata do teu projecto, tipo tá aguardada dentro de uma pasta que tem pasta dele, onde essa pasta também tem pasta dele e fica assim:
 
 ``` md
 /home/critical-trojan/Documentos/LAB. De programação/Git/Guia Para o React Native
@@ -127,7 +122,7 @@ Apartir desse momento a pasta do teu projecto virá com pastas e ficheiros inici
 
  ![Dependências](./assets/imagens/dependencias.png)
 
-E ao clicar no botão **CTRL + clicando com o cursor** no localhost:
+E ao clicar no botão **CTRL + botão esquerdo do mouse** no servidor que aparecer no terminal após terminar o download, é só clicar no link como disse que está depois do **local** o tal e famoso **localhost**.
 
  ![Server local](./assets/imagens/serverlocal.png)
 
@@ -136,7 +131,7 @@ Ele vai abrir o projecto no teu navegador deste jeito:
  ![Um hello world moderno](./assets/imagens/helloworldmoderno.png)
 
 
-### E prontos, tens o teu projecto criado!!! Agora é só fazer as modificações certas kkk, e acrescentar o que for necessário!
+### E prontos, tens o teu projecto criado!!! Agora é só fazer as modificações certas kkk, e acrescentar o que for necessário! Se não sabe quais modificações são essas, confira no próximo ponto.
 
 
 --------------------------------------
@@ -145,9 +140,9 @@ Ele vai abrir o projecto no teu navegador deste jeito:
 
 ### Parte introdutoria(Se quiser pular, pula)
 
-Já criamos o nosso projecto, mas e aí? é tudo? claro que não, aqui vou ensinar também a usar o **Tailwind** ou em outros termos(mas não verdadeiros)  **Bootstrap** ! sim, atualmente precisamos ser rápidos e dinâmicos ao criar sistemas e um sistemas não pode nos fazer uma semana ou um mês, ser produtivo em menor tempo possivel, então é necessário ter esse tipo de ajuda em nossos projectos.
+Já criamos o nosso projecto, mas e aí? é tudo? claro que não, aqui vou ensinar também a usar o **Tailwind** ou em outros termos(mas não verdadeiros)  **Bootstrap** ! sim, atualmente precisamos ser rápidos e dinâmicos ao criar sistemas e um sistemas não pode nos fazer uma semana ou um mês, ou seja, devemos ser produtivo em menor tempo possivel, então é necessário ter esse tipo de ajuda em nossos projectos.
 
-Você já criou classes eno **CSS** e usou no **HTML** certo? tu criavas nomes como se fossem variaveis e depois alteravas no css... o React ainda vais usar o **HTML** e também o **CSS**, caso vocÊ já tenha interagido com essas linguagens( não de programação, elas não são linguagens de programação...), Será fácil se adaptar aqui.
+Você já criou classes no **CSS** e usou no **HTML** certo? tu criavas nomes como se fossem variaveis e depois alteravas no css... no React ainda vais usar o **HTML** e também o **CSS**, caso você já tenha interagido com essas linguagens( não de programação, elas não são linguagens de programação...), Será fácil se adaptar aqui.
 
 ### Implementação!
 
@@ -211,7 +206,7 @@ Vá para o **package.json** e deixa assim:
 ```
 
 O que aconteceu? só eliminaste tudo que tem haver com o arquivo **eslint** que você apagou para não der erro depois...
-### Verás que está a faltar aquivos na minha pasta src, mas na verdade é para eliminar mesmo, o que você ver que não tenho é para eliminar na tua pasta src, atenção! isso que estás a ver é a pasta src ok? a estrutura da pasta src.
+### Você viu que está a faltar aquivos na minha pasta src, mas na verdade é para eliminar mesmo, o que você ver que não tenho é para eliminar na tua pasta src. Atenção! isso que estás a ver é a pasta src ok? a estrutura da pasta src.
 
 Entra no **App.tsx** e deixa assim:
 
@@ -259,7 +254,7 @@ Podes colcoar de uma vez ou em separado, mais se for de uma vez, clica no botão
 
 **Configurando o Arquivo "vite.config.ts"**
 
-Após instalar, clica no arquivo dentro projecto com o nome **vite.config.ts** e adiciona essas duas linhas de codigo...
+Após instalar, clica no arquivo dentro projecto com o nome **vite.config.ts** e adiciona essa linhas de codigo...
 
 Por baixo dos outros import coloca isso:
 ``` md
