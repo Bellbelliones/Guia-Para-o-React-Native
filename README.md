@@ -318,7 +318,7 @@ export default App
 roda de novo no terminal dentro do teu projecto(caso ainda não tenhas iniciado o servidor):
 
 ```md
-npm rund dev
+npm run dev
 ```
 
 clica no localhost com a tecla **CTRL + click do mouse** e vai te redirecionar para o navegador para ver o que foi alterado, ele ficará assim:
