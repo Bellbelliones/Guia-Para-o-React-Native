@@ -1,5 +1,8 @@
 # COMO CONECTAR O TEU PROJECTO REACT COM O BANCO DE DADOS RELACIONAL SUPABASE?
 
+
+[<- Voltar ao guia do React](./README.md)
+
 ## 1. Criar uma conta e um projecto no Supabase:
 
 Para conectar primeiro tens que ir até ao site oficial do supabase([Clica Aqui](https://supabase.com/)), e tentar fazer login(caso já tenhas uma conta) ou criar uma conta.
