@@ -29,7 +29,7 @@ Todos os direitos reservados ao **Rodolfo Guzman**.
 Desde já agradeço por usar este guia como base para o **React**, agora! Boraaaa para o códigoooo!
 
 -----------------------------------------
-##Caso Já tenhas terminado este guia do React, podes passar para o próximo guia, que fala sobre a conexão do teu projecto **React** com a Base de Dados **Supabase**
+## Caso Já tenhas terminado este guia do React, podes passar para o próximo guia, que fala sobre a conexão do teu projecto **React** com a Base de Dados **Supabase**
 
 [Guia de Conexão React+Supabase](./SupabaseREADME.md)
 
